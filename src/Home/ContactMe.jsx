@@ -4,7 +4,7 @@ import Navbar from '../Shared/Navbar/Navbar';
 const ContactForm = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            
             <form action="https://formspree.io/eanurlihan10@gmail.com" method="POST">
                 <label>
                     Your Email:
