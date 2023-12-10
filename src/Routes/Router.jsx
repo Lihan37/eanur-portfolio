@@ -3,8 +3,12 @@ import {
     
   } from "react-router-dom";
 import Home from "../Home/Home";
-import ContactMe from "../Home/ContactMe";
+
 import Main from "../layout/Main";
+import AboutMe from "../Home/AboutMe";
+import Education from "../Home/education";
+import Skills from "../Home/Skills";
+import ContactMe from "../Home/ContactMe";
 
  export const router = createBrowserRouter([
     {
@@ -18,6 +22,18 @@ import Main from "../layout/Main";
         {
           path: '/contact',
           element: <ContactMe></ContactMe>
+        },
+        {
+          path: '/about',
+          element: <AboutMe></AboutMe>
+        },
+        {
+          path: '/education',
+          element: <Education></Education>
+        },
+        {
+          path: '/skills',
+          element: <Skills></Skills>
         }
       ]
     }

@@ -5,7 +5,7 @@ import './styles.css'
 
 const Banner = () => {
   return (
-    <div className="banner flex sm:flex-row justify-evenly items-center bg-cyan-800 mt-0 px-8 py-36 text-white">
+    <div className="banner min-h-screen flex sm:flex-row justify-evenly items-center bg-cyan-800 mt-0 px-8 text-white">
       <div className="left-content items-center">
         <div className="rounded-full overflow-hidden h-64 w-64 mr-4">
           <img src={dp} alt="Your Name" className="w-full h-full object-cover" />
