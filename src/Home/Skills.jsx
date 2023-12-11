@@ -1,7 +1,12 @@
-import React from 'react';
+
+import { Transition } from 'react-transition-group';
 import { FaHtml5, FaCss3, FaReact, FaDatabase, FaFire, FaCode, FaLanguage, FaTools, FaUsers, FaCodeBranch, FaJava } from 'react-icons/fa';
+ 
+
 
 const Skills = () => {
+
+  
   return (
     <div className="skills-container mt-40 text-center">
       <h2 className="text-4xl text-cyan-400 font-bold mb-4">Skills</h2>

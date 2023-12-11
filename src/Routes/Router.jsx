@@ -10,6 +10,7 @@ import Education from "../Home/education";
 import Skills from "../Home/Skills";
 import ContactMe from "../Home/ContactMe";
 import Projects from "../Home/Projects";
+import Experience from "../Home/Experience";
 
  export const router = createBrowserRouter([
     {
@@ -39,6 +40,10 @@ import Projects from "../Home/Projects";
         {
           path: '/projects',
           element: <Projects></Projects>
+        },
+        {
+          path: '/experience',
+          element: <Experience></Experience>
         }
       ]
     }

@@ -1,0 +1,11 @@
+/* Navbar.css */
+
+.nav-link {
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+    color: white; /* Set the default text color to white */
+}
+
+.nav-link.active {
+    background-color: #1F2937; /* Adjust the color as per your design */
+}

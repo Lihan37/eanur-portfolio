@@ -15,7 +15,7 @@ const Banner = () => {
           <p className="text-2xl">MERN Stack Developer</p>
         </div>
       </div>
-      <div className="w-64 pb-16 hidden lg:block right-content">
+      <div className="w-64 pb-16 right-content">
         <p className="text-lg italic">
           "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
         </p>
